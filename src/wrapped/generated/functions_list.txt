@@ -4187,6 +4187,8 @@
 #() iFEpuvvppp -> iFEpuppp
 wrappedalure:
 wrappedalut:
+wrappedandroidshmem:
+wrappedandroidsupport:
 wrappedanl:
 wrappedatk:
 - vFp:
@@ -4502,6 +4504,202 @@ wrappeddbusmenuglib:
 wrappeddecor0:
 - pFpppp:
   - libdecor_decorate
+wrappedeossdk:
+- iFp:
+  - EOS_Logging_SetCallback
+- vFpppp:
+  - EOS_Achievements_QueryDefinitions
+  - EOS_Achievements_QueryPlayerAchievements
+  - EOS_Achievements_UnlockAchievements
+  - EOS_AntiCheatClient_BeginSession
+  - EOS_AntiCheatClient_EndSession
+  - EOS_AntiCheatServer_BeginSession
+  - EOS_AntiCheatServer_EndSession
+  - EOS_Audio_QueryInputDevices
+  - EOS_Audio_QueryOutputDevices
+  - EOS_Auth_DeletePersistentAuth
+  - EOS_Auth_LinkAccount
+  - EOS_Auth_Login
+  - EOS_Auth_Logout
+  - EOS_Auth_QueryIdToken
+  - EOS_Auth_VerifyIdToken
+  - EOS_Auth_VerifyUserAuth
+  - EOS_Connect_CreateDeviceId
+  - EOS_Connect_CreateUser
+  - EOS_Connect_DeleteDeviceId
+  - EOS_Connect_LinkAccount
+  - EOS_Connect_Login
+  - EOS_Connect_Logout
+  - EOS_Connect_QueryExternalAccountMappings
+  - EOS_Connect_QueryProductUserIdMappings
+  - EOS_Connect_TransferDeviceIdAccount
+  - EOS_Connect_UnlinkAccount
+  - EOS_Connect_VerifyIdToken
+  - EOS_CustomInvites_AcceptRequestToJoin
+  - EOS_CustomInvites_FinalizeInvite
+  - EOS_CustomInvites_RejectRequestToJoin
+  - EOS_CustomInvites_SendCustomInvite
+  - EOS_CustomInvites_SendRequestToJoin
+  - EOS_Ecom_Checkout
+  - EOS_Ecom_QueryEntitlementToken
+  - EOS_Ecom_QueryEntitlements
+  - EOS_Ecom_QueryOffers
+  - EOS_Ecom_QueryOwnership
+  - EOS_Ecom_QueryOwnershipBySandboxIds
+  - EOS_Ecom_QueryOwnershipToken
+  - EOS_Ecom_RedeemEntitlements
+  - EOS_Friends_AcceptInvite
+  - EOS_Friends_QueryFriends
+  - EOS_Friends_RejectInvite
+  - EOS_Friends_SendInvite
+  - EOS_IntegratedPlatform_FinalizeDeferredUserLogout
+  - EOS_KWS_CreateUser
+  - EOS_KWS_QueryAgeGate
+  - EOS_KWS_QueryPermissions
+  - EOS_KWS_RequestPermissions
+  - EOS_KWS_UpdateParentEmail
+  - EOS_Leaderboards_QueryLeaderboardDefinitions
+  - EOS_Leaderboards_QueryLeaderboardRanks
+  - EOS_Leaderboards_QueryLeaderboardUserScores
+  - EOS_LobbySearch_Find
+  - EOS_Lobby_CreateLobby
+  - EOS_Lobby_DestroyLobby
+  - EOS_Lobby_HardMuteMember
+  - EOS_Lobby_JoinLobby
+  - EOS_Lobby_JoinLobbyById
+  - EOS_Lobby_JoinRTCRoom
+  - EOS_Lobby_KickMember
+  - EOS_Lobby_LeaveLobby
+  - EOS_Lobby_LeaveRTCRoom
+  - EOS_Lobby_PromoteMember
+  - EOS_Lobby_QueryInvites
+  - EOS_Lobby_RejectInvite
+  - EOS_Lobby_SendInvite
+  - EOS_Lobby_UpdateLobby
+  - EOS_Mods_EnumerateMods
+  - EOS_Mods_InstallMod
+  - EOS_Mods_UninstallMod
+  - EOS_Mods_UpdateMod
+  - EOS_P2P_QueryNATType
+  - EOS_PlayerDataStorage_DeleteCache
+  - EOS_PlayerDataStorage_DeleteFile
+  - EOS_PlayerDataStorage_DuplicateFile
+  - EOS_PlayerDataStorage_QueryFile
+  - EOS_PlayerDataStorage_QueryFileList
+  - EOS_PlayerDataStorage_ReadFile
+  - EOS_PlayerDataStorage_WriteFile
+  - EOS_Presence_QueryPresence
+  - EOS_Presence_SetPresence
+  - EOS_ProgressionSnapshot_BeginSnapshot
+  - EOS_ProgressionSnapshot_DeleteSnapshot
+  - EOS_ProgressionSnapshot_SubmitSnapshot
+  - EOS_RTCAdmin_Kick
+  - EOS_RTCAdmin_QueryJoinRoomToken
+  - EOS_RTCAdmin_SetParticipantHardMute
+  - EOS_RTCAudio_QueryInputDevicesInformation
+  - EOS_RTCAudio_QueryOutputDevicesInformation
+  - EOS_RTCAudio_UpdateParticipantVolume
+  - EOS_RTCAudio_UpdateReceiving
+  - EOS_RTCAudio_UpdateReceivingVolume
+  - EOS_RTCAudio_UpdateSending
+  - EOS_RTCAudio_UpdateSendingVolume
+  - EOS_RTCData_UpdateReceiving
+  - EOS_RTCData_UpdateSending
+  - EOS_RTC_BlockParticipant
+  - EOS_RTC_JoinRoom
+  - EOS_RTC_LeaveRoom
+  - EOS_Reports_SendPlayerBehaviorReport
+  - EOS_Sanctions_CreatePlayerSanctionAppeal
+  - EOS_Sanctions_QueryActivePlayerSanctions
+  - EOS_SessionSearch_Find
+  - EOS_Sessions_DestroySession
+  - EOS_Sessions_EndSession
+  - EOS_Sessions_JoinSession
+  - EOS_Sessions_QueryInvites
+  - EOS_Sessions_RegisterPlayers
+  - EOS_Sessions_RejectInvite
+  - EOS_Sessions_SendInvite
+  - EOS_Sessions_StartSession
+  - EOS_Sessions_UnregisterPlayers
+  - EOS_Sessions_UpdateSession
+  - EOS_Stats_IngestStat
+  - EOS_Stats_QueryStats
+  - EOS_TitleStorage_DeleteCache
+  - EOS_TitleStorage_QueryFile
+  - EOS_TitleStorage_QueryFileList
+  - EOS_TitleStorage_ReadFile
+  - EOS_UserInfo_QueryUserInfo
+  - EOS_UserInfo_QueryUserInfoByDisplayName
+  - EOS_UserInfo_QueryUserInfoByExternalAccount
+- iFpppp:
+  - EOS_UI_HideFriends
+  - EOS_UI_ShowBlockPlayer
+  - EOS_UI_ShowFriends
+  - EOS_UI_ShowNativeProfile
+  - EOS_UI_ShowReportPlayer
+- LFpppp:
+  - EOS_Achievements_AddNotifyAchievementsUnlocked
+  - EOS_Achievements_AddNotifyAchievementsUnlockedV2
+  - EOS_AntiCheatClient_AddNotifyClientIntegrityViolated
+  - EOS_AntiCheatClient_AddNotifyMessageToPeer
+  - EOS_AntiCheatClient_AddNotifyMessageToServer
+  - EOS_AntiCheatClient_AddNotifyPeerActionRequired
+  - EOS_AntiCheatClient_AddNotifyPeerAuthStatusChanged
+  - EOS_AntiCheatServer_AddNotifyClientActionRequired
+  - EOS_AntiCheatServer_AddNotifyClientAuthStatusChanged
+  - EOS_AntiCheatServer_AddNotifyMessageToClient
+  - EOS_Audio_SetNotifyDevicesChanged
+  - EOS_Auth_AddNotifyLoginStatusChanged
+  - EOS_Connect_AddNotifyAuthExpiration
+  - EOS_Connect_AddNotifyLoginStatusChanged
+  - EOS_CustomInvites_AddNotifyCustomInviteAccepted
+  - EOS_CustomInvites_AddNotifyCustomInviteReceived
+  - EOS_CustomInvites_AddNotifyCustomInviteRejected
+  - EOS_CustomInvites_AddNotifyRequestToJoinAccepted
+  - EOS_CustomInvites_AddNotifyRequestToJoinReceived
+  - EOS_CustomInvites_AddNotifyRequestToJoinRejected
+  - EOS_CustomInvites_AddNotifyRequestToJoinResponseReceived
+  - EOS_CustomInvites_AddNotifySendCustomNativeInviteRequested
+  - EOS_Friends_AddNotifyBlockedUsersUpdate
+  - EOS_Friends_AddNotifyFriendsUpdate
+  - EOS_IntegratedPlatform_AddNotifyUserLoginStatusChanged
+  - EOS_KWS_AddNotifyPermissionsUpdateReceived
+  - EOS_Lobby_AddNotifyJoinLobbyAccepted
+  - EOS_Lobby_AddNotifyLeaveLobbyRequested
+  - EOS_Lobby_AddNotifyLobbyInviteAccepted
+  - EOS_Lobby_AddNotifyLobbyInviteReceived
+  - EOS_Lobby_AddNotifyLobbyInviteRejected
+  - EOS_Lobby_AddNotifyLobbyMemberStatusReceived
+  - EOS_Lobby_AddNotifyLobbyMemberUpdateReceived
+  - EOS_Lobby_AddNotifyLobbyUpdateReceived
+  - EOS_Lobby_AddNotifyRTCRoomConnectionChanged
+  - EOS_Lobby_AddNotifySendLobbyNativeInviteRequested
+  - EOS_P2P_AddNotifyIncomingPacketQueueFull
+  - EOS_P2P_AddNotifyPeerConnectionClosed
+  - EOS_P2P_AddNotifyPeerConnectionEstablished
+  - EOS_P2P_AddNotifyPeerConnectionInterrupted
+  - EOS_P2P_AddNotifyPeerConnectionRequest
+  - EOS_Presence_AddNotifyJoinGameAccepted
+  - EOS_Presence_AddNotifyOnPresenceChanged
+  - EOS_RTCAudio_AddNotifyAudioBeforeRender
+  - EOS_RTCAudio_AddNotifyAudioBeforeSend
+  - EOS_RTCAudio_AddNotifyAudioDevicesChanged
+  - EOS_RTCAudio_AddNotifyAudioInputState
+  - EOS_RTCAudio_AddNotifyAudioOutputState
+  - EOS_RTCAudio_AddNotifyParticipantUpdated
+  - EOS_RTCData_AddNotifyDataReceived
+  - EOS_RTCData_AddNotifyParticipantUpdated
+  - EOS_RTC_AddNotifyDisconnected
+  - EOS_RTC_AddNotifyParticipantStatusChanged
+  - EOS_RTC_AddNotifyRoomStatisticsUpdated
+  - EOS_Sessions_AddNotifyJoinSessionAccepted
+  - EOS_Sessions_AddNotifyLeaveSessionRequested
+  - EOS_Sessions_AddNotifySendSessionNativeInviteRequested
+  - EOS_Sessions_AddNotifySessionInviteAccepted
+  - EOS_Sessions_AddNotifySessionInviteReceived
+  - EOS_Sessions_AddNotifySessionInviteRejected
+  - EOS_UI_AddNotifyDisplaySettingsUpdated
+  - EOS_UI_AddNotifyMemoryMonitor
 wrappedevent21:
 - vFpiwpp:
   - event_set
@@ -5336,6 +5534,7 @@ wrappedgtkx112:
 - pFpipppppppi:
   - gtk_toolbar_insert_element
 wrappedharfbuzzsubset:
+wrappediconv:
 wrappedicui18n64:
 wrappedicui18n66:
 wrappedicui18n67:
@@ -7286,6 +7485,7 @@ wrappedtcmallocminimal:
 - pFpLiiil:
   - mmap
   - mmap64
+wrappedtermuxexec:
 wrappedudev0:
 wrappedudev1:
 - vFpp:

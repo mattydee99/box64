@@ -445,5 +445,8 @@ GO("libandroid-support.so", androidsupport)
 
 GO("ld-linux-x86-64.so.2", ldlinux)
 
+GO("libEOSSDK-Linux-Shipping.so", eossdk)
+GO("libEOSSDK-LinuxArm64-Shipping.so", eossdk)
+
 //GO("libunwind.so.8", unwind)
 //GO("crashhandler.so", crashhandler)
